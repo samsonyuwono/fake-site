@@ -3,19 +3,19 @@
    text-align: center;
    background-color: white;
    vertical-align: center;
-   line-height:120px;
-   height:120px;
    justify-content: space-around;
 }
 
 .link {
   padding-right: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
   size: 1px;
   padding-top: 40px;
   line-height: 28px;
   float: right;
-  /* color: #FFFF; */
-  color: #E8E8E8;
+  color: #FFFF;
+  /* color: #E8E8E8; */
+  text-decoration: none;
 }
 
 .icon {
@@ -34,8 +34,8 @@
 
 .image {
   padding-top: 3%;
-  padding-right: 0.5%;
   padding-bottom: 5%;
+  padding-right: 0.5%;
   border-radius: 100%;
   width: 6%;
   height: auto;
