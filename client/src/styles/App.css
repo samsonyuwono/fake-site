@@ -2,9 +2,9 @@
 * {
   box-sizing: border-box; }
 
-body {  background: white;
-  padding-bottom: 56px;
-
+body {
+  background: white;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .main {
@@ -22,4 +22,22 @@ body {  background: white;
   min-height:100%;
   position: sticky;
   background-blend-mode: screen;
+}
+
+.App {
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 40%;
+  font-size: 35%;
+  padding-bottom: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #88939E;
 }

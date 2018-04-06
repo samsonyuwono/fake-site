@@ -7,9 +7,9 @@ const Footer = () => {
   return(
   <div className={styles.footer}>
     <img className={styles.icon} src={logo} alt="logo" />
-    <NavLink className={styles.link} to='/help'>Terms</NavLink>
-    <NavLink className={styles.link} to='/account'>Privacy</NavLink>
     <NavLink className={styles.link} to='/help'>Sitemap</NavLink>
+    <NavLink className={styles.link} to='/account'>Privacy</NavLink>
+    <NavLink className={styles.link} to='/help'>Terms</NavLink>
   </div>
 
   )

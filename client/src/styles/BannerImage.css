@@ -1,0 +1,11 @@
+.hero {
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.imageContainer {
+  position: relative;
+  z-index: -1;
+}

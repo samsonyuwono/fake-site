@@ -4,6 +4,7 @@
    background-color: white;
    vertical-align: center;
    justify-content: space-around;
+   position: relative;
 }
 
 .link {
