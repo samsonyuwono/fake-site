@@ -5,7 +5,7 @@ import styles from '../styles/Footer.css';
 
 const Footer = () => {
   return(
-  <div className={styles.navbar}>
+  <div className={styles.footer}>
     <img className={styles.icon} src={logo} alt="logo" />
     <NavLink className={styles.link} to='/help'>Terms</NavLink>
     <NavLink className={styles.link} to='/account'>Privacy</NavLink>

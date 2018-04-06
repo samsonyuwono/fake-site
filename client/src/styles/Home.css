@@ -1,5 +1,15 @@
 .heading {
-  text-align: left;
+  text-align: center;
+  font-size: 48px;
+  /* color: #FFFF; */
+  color: #E8E8E8;
+  line-height: 36px;
+}
+
+.paragraph {
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
 }
 
 .hero {
