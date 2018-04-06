@@ -1,0 +1,27 @@
+.textContainer {
+  padding-top: 20%;
+  text-align: center;
+}
+
+.heading {
+  font-size: 200%;
+  /* color: #FFFF; */
+  color: #FFF;
+  line-height: 36px;
+  font-family:
+}
+
+.paragraph {
+  text-align: center;
+  padding-bottom: 22px;
+  font-size: 35%;
+  line-height: 38%;
+  color: #FFF;
+  z-index: 2;
+
+}
+
+@font-face {
+  font-family: 'myFirstFont';
+  src: url('../assets/fonts/SourceSansPro-Light.otf')
+}

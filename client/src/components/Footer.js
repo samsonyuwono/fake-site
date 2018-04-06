@@ -6,6 +6,7 @@ import styles from '../styles/Footer.css';
 const Footer = () => {
   return(
   <div className={styles.footer}>
+  //put horizontal line as html element
     <img className={styles.icon} src={logo} alt="logo" />
     <NavLink className={styles.link} to='/help'>Sitemap</NavLink>
     <NavLink className={styles.link} to='/account'>Privacy</NavLink>

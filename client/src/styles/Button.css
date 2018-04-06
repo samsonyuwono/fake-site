@@ -1,12 +1,12 @@
 .button {
-  background-color: #EE2D1C; /* Green */
+  background-color: #EE2D1C;
   border: none;
   color: #FFF;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
+  font-size: 12px;
   border-radius: 50px 50px 50px 50px;
   font-family: 'Source Sans Pro', sans-serif;
   position: relative;

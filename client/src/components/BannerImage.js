@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styles from '../styles/BannerImage.css';
-import heroImage from '../assets/hero-image.png';
 import Navbar from './Navbar';
+import Text from './Text';
+import Button from './Button';
+import heroImage from '../assets/hero-image.png'
 
-const BannerImage = () => {
+class BannerImage extends Component {
+  render() {
   return (
-  <div className={styles.imageContainer}>
-    <Navbar />
-    <img className={styles.hero} src={heroImage} alt="logo" />
+    <div>
+      <div className={styles.imageContainer}>
+      <Navbar />
+      <Text />
+      <Button/>
+    </div>
   </div>
     )
   }
+}
 
 export default BannerImage;

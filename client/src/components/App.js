@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import styles from '../styles/App.css';
-import Home from './Home';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import Video from './Video'
@@ -20,7 +19,7 @@ class App extends Component {
     <div className={styles.hero}>
       <BrowserRouter>
         <div>
-        <Route path="/" component={Home} />
+        <BannerImage />
         <Video />
         <h2 className={styles.heading}>Ready to have your cake and eat it too?</h2>
         <p className={styles.paragraph}>Start by designing the experience you have in mind.

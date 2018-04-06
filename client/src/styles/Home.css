@@ -1,12 +1,11 @@
 .heading {
+  padding-top: 50px;
   text-align: center;
   font-size: 200%;
   /* color: #FFFF; */
   color: #FFF;
   line-height: 36px;
-  padding-bottom: 22px;
   font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 .paragraph {
