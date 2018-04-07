@@ -3,7 +3,6 @@ import styles from '../styles/BannerImage.css';
 import Navbar from './Navbar';
 import Text from './Text';
 import Button from './Button';
-import heroImage from '../assets/hero-image.png'
 
 class BannerImage extends Component {
   render() {

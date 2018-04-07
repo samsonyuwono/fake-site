@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
+import { BrowserRouter} from 'react-router-dom';
 import styles from '../styles/App.css';
 import Footer from './Footer';
-import Navbar from './Navbar';
-import Video from './Video'
+import Video from './Video';
 import BannerImage from './BannerImage';
+import Table from './Table';
 
-
-const About = () => <h2>About</h2>
-const Help = () => <h2>Help</h2>
-const Fakesite = () => <h2>Fakesite</h2> //container
 
 class App extends Component {
   render(){
@@ -21,9 +16,12 @@ class App extends Component {
         <div>
         <BannerImage />
         <Video />
+        <div className={styles.paragraphContainer}>
         <h2 className={styles.heading}>Ready to have your cake and eat it too?</h2>
         <p className={styles.paragraph}>Start by designing the experience you have in mind.
         We'll guide you through each step. If your experience meets the quality standards, you'll hear more about what's next.</p>
+        </div>
+        <Table />
         <Footer />
         </div>
       </BrowserRouter>

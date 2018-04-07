@@ -1,6 +1,8 @@
 .textContainer {
   padding-top: 20%;
+  height: auto;
   text-align: center;
+  position: relative;
 }
 
 .heading {

@@ -32,3 +32,8 @@
   width: 9%;
   margin: 0px 15px 15px 0px;
 }
+
+.hr {
+  color: #E8E8E8;
+  border-width: 1px;
+}

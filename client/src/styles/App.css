@@ -41,3 +41,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #88939E;
 }
+
+.paragraphContainer {
+  padding-top: 150px;
+  float: inherit;
+}

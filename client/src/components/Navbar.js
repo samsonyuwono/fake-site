@@ -3,8 +3,6 @@ import { NavLink } from 'react-router-dom';
 import styles from '../styles/Navbar.css';
 import logo from '../assets/logo.png';
 import image from '../assets/image.jpg';
-import heroImage from '../assets/hero-image.png';
-
 
 const Navbar = () => {
   return(
