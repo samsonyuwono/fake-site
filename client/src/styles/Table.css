@@ -7,8 +7,6 @@
   font-size: 12px;
   padding-top: 40px;
   padding-bottom: 40px;
- font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 
@@ -16,20 +14,36 @@
 .fakeSiteHeader {
   padding-right: 50px;
   padding-bottom: 15px;
+  font-size: 14px;
+  font-family: HeaderFont;
 }
 
 .accountHeader {
   padding-bottom: 15px;
   padding-left: 40px;
+  font-size: 14px;
+  font-family: HeaderFont;
 }
 
 .fakeSiteData {
   color: #88939E;
   line-height: 28px;
+  font-family: ParagraphFont;
 }
 
 .accountData {
   color: #88939E;
   line-height: 28px;
   padding-left: 40px;
+  font-family: ParagraphFont;
+}
+
+@font-face {
+  font-family: HeaderFont;
+  src: url(../assets/fonts/SourceSansPro-Semibold.otf)
+}
+
+@font-face {
+  font-family: ParagraphFont;
+  src: url(../assets/fonts/SourceSansPro-Light.otf)
 }

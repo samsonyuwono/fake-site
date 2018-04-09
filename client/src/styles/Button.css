@@ -6,13 +6,18 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 18px;
   border-radius: 50px 50px 50px 50px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: ButtonFont;
   position: relative;
 }
 
 .buttonContainer {
   text-align: center;
   height: 50%;
+}
+
+@font-face {
+  font-family: ButtonFont;
+  src: url(../assets/fonts/SourceSansPro-Light.otf)
 }

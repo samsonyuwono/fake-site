@@ -4,7 +4,6 @@
 
 body {
   background: white;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .main {
@@ -24,21 +23,33 @@ body {
   background-blend-mode: screen;
 }
 
+@font-face {
+font-family: Subhead;
+src: url(../assets/fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+font-family: SourceSansPro-Regular;
+src: url(../assets/fonts/SourceSansPro-Light.otf);
+}
+
+
 .App {
   position: relative;
 }
 
 .heading {
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: SubHead;
 }
 
 .paragraph {
+  line-height: 18px;
   text-align: center;
-  font-size: 40%;
-  font-size: 35%;
+  font-size: 22px;
+  font-size: 50%;
   padding-bottom: 40px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: SourceSansPro-Regular;
   color: #88939E;
 }
 

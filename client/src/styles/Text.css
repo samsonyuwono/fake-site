@@ -7,23 +7,27 @@
 
 .heading {
   font-size: 200%;
-  /* color: #FFFF; */
   color: #FFF;
   line-height: 36px;
-  font-family:
+  font-family: HeaderFont;
 }
 
 .paragraph {
   text-align: center;
   padding-bottom: 22px;
-  font-size: 35%;
-  line-height: 38%;
+  font-size: 15px;
+  line-height: 18px;
   color: #FFF;
   z-index: 2;
-
+  font-family: ParagraphFont;
 }
 
 @font-face {
-  font-family: 'myFirstFont';
-  src: url('../assets/fonts/SourceSansPro-Light.otf')
+  font-family: HeaderFont;
+  src: url(../assets/fonts/SourceSansPro-Light.otf)
+}
+
+@font-face {
+  font-family: ParagraphFont;
+  src: url(../assets/fonts/SourceSansPro-Light.otf)
 }

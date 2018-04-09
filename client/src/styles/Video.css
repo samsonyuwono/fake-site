@@ -6,14 +6,15 @@
 }
 
 .videoImage {
-     width: 35%;
-     height: 0.5%;
-     padding-bottom: 40px;
-     float: right;
-     position: relative;
-     z-index: -1;
-     top: 0;
-     bottom: 0;
+  width: 35%;
+  height: 0.5%;
+  padding-bottom: 40px;
+  float: right;
+  position: relative;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  filter: #EE2E1D;
 }
 
 .playButton {
@@ -27,8 +28,20 @@
 
 .videoHeading {
   padding-left: 10%;
+  font-family: HeaderFont;
 }
 
 .videoParagraph {
   padding-left: 10%;
+  font-family: ParagraphFont;
+}
+
+@font-face {
+  font-family: HeaderFont;
+  src: url(../assets/fonts/SourceSansPro-Bold.otf)
+}
+
+@font-face {
+  font-family: ParagraphFont;
+  src: url(../assets/fonts/SourceSansPro-Light.otf)
 }

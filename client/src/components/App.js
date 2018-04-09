@@ -19,7 +19,7 @@ class App extends Component {
         <div className={styles.paragraphContainer}>
         <h2 className={styles.heading}>Ready to have your cake and eat it too?</h2>
         <p className={styles.paragraph}>Start by designing the experience you have in mind.
-        We'll guide you through each step. If your experience meets the quality standards, you'll hear more about what's next.</p>
+        We'll guide you through each step. If <br/> your experience meets the quality standards, you'll hear more about what's next.</p>
         </div>
         <Table />
         <Footer />

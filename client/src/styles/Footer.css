@@ -14,7 +14,7 @@
   width: '100%';
   float: right;
   padding-top: 5%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: FooterFont;
   size: 1px;
   text-decoration: none;
 }
@@ -36,4 +36,9 @@
 .hr {
   color: #E8E8E8;
   border-width: 1px;
+}
+
+@font-face {
+font-family: FooterFont;
+src: url(../assets/fonts/SourceSansPro-Regular.otf);
 }

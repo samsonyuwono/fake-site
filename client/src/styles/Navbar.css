@@ -1,10 +1,16 @@
 .navbar {
   width: 100%;
-   text-align: center;
-   background-color: white;
-   vertical-align: center;
-   justify-content: space-around;
-   position: relative;
+  text-align: center;
+  background-color: white;
+  vertical-align: center;
+  justify-content: space-around;
+  position: relative;
+  font-family: LinkFont;
+}
+
+@font-face {
+font-family: LinkFont;
+src: url(../assets/fonts/SourceSansPro-Regular.otf);
 }
 
 .link {
@@ -14,8 +20,7 @@
   padding-top: 40px;
   line-height: 28px;
   float: right;
-  /* color: #FFFF; */
-  color: #E8E8E8;
+  color: #FFFF;
   text-decoration: none;
 }
 
@@ -29,7 +34,7 @@
   left:10px;
   top:10px;
   height: auto;
-  width: 90px;
+  width: 9%;
   margin: 0px 15px 15px 0px;
 }
 
