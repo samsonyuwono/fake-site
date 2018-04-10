@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { BrowserRouter} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import styles from '../styles/App.css';
 import Footer from './Footer';
 import Video from './Video';
+import VideoList from './VideoList';
 import BannerImage from './BannerImage';
 import Table from './Table';
 
@@ -12,8 +13,9 @@ class App extends Component {
   return (
   <div className={styles.App}>
     <div className={styles.hero}>
-      <BrowserRouter>
+      <Router>
         <div>
+        <Link to='/test' component={ VideoList } />
         <BannerImage />
         <Video />
         <div className={styles.paragraphContainer}>
@@ -24,7 +26,7 @@ class App extends Component {
         <Table />
         <Footer />
         </div>
-      </BrowserRouter>
+      </Router>
     </div>
   </div>
     )

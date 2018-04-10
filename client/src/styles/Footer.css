@@ -4,6 +4,7 @@
   vertical-align: center;
   justify-content: space-around;
   position: relative;
+  float: inherit;
 }
 
 .link {
