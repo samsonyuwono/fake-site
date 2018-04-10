@@ -10,8 +10,10 @@ class BannerImage extends Component {
     <div>
       <div className={styles.imageContainer}>
       <Navbar />
+      <div className={styles.bannerContent}>
       <Text />
       <Button/>
+      </div>
     </div>
   </div>
     )

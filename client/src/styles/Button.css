@@ -1,6 +1,6 @@
 .button {
   background-color: #EE2D1C;
-  border: none;
+  border: 1px solid #EE2D1C;
   color: #FFF;
   padding: 15px 32px;
   text-align: center;
@@ -10,7 +10,15 @@
   border-radius: 50px 50px 50px 50px;
   font-family: ButtonFont;
   position: relative;
+  transition: all .2s linear;
+  cursor: pointer;
 }
+
+.button:hover {
+  background-color: #FFF;
+  color: #EE2D1C;
+}
+
 
 .buttonContainer {
   text-align: center;

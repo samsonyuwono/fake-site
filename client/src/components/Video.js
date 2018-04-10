@@ -10,7 +10,6 @@ class Video extends Component {
 
     this.state = {
       videos: [],
-      selectedVideo: null
     }
     this.fetchVimeo()
   }
@@ -27,14 +26,22 @@ class Video extends Component {
   render(){
     return(
     <div className={styles.videoContainer}>
-      <div className={styles.imageContainer}>
-      <img className ={styles.videoImage} src={stockimage} alt="video" />
-      <a href="/test"><img onClick={this.handleOnClick} className ={styles.playButton} src={playButton} alt="playbtn" /></a>
-
-      </div>
-      <h2 className={styles.videoHeading}>Video Title (from videos.json)</h2>
-      <p className={styles.videoParagraph}>Video description (from videos.json)</p>
+      <div className={styles.contentWrapper}>
+        <h2 className={styles.videoHeading}>Video Title (from videos.json)</h2>
+        <p className={styles.videoParagraph}>Video description (from videos.json)</p>
     </div>
+
+    <div className={styles.videoWrapper}>
+      <a href="/test">
+        <div className={styles.videoOverlay}>
+        </div>
+        <img className ={styles.videoImage} src={stockimage} alt="video" />
+      </a>
+    </div>
+
+
+    </div>
+
     )
   }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import VideoListItem from './VideoListItem'
 
 const VideoList = props => {
+  if(props){
   const videoItems = props.videos.map((video) => {
     return <VideoListItem key={video.id} video={video} />
   })
@@ -10,6 +11,7 @@ const VideoList = props => {
       {videoItems}
     </ul>
   )}
+}
 
 
 export default VideoList;

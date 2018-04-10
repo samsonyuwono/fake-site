@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import styles from '../styles/App.css';
 import Footer from './Footer';
 import Video from './Video';
 import VideoList from './VideoList';
+import VideoListItem from './VideoListItem';
 import BannerImage from './BannerImage';
 import Table from './Table';
 
@@ -15,9 +16,10 @@ class App extends Component {
     <div className={styles.hero}>
       <Router>
         <div>
-        <Link to='/test' component={ VideoList } />
         <BannerImage />
         <Video />
+        <Route exact path="/test" render={ VideoList } />
+
         <div className={styles.paragraphContainer}>
         <h2 className={styles.heading}>Ready to have your cake and eat it too?</h2>
         <p className={styles.paragraph}>Start by designing the experience you have in mind.
