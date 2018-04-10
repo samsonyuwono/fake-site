@@ -41,13 +41,14 @@ src: url(../assets/fonts/SourceSansPro-Light.otf);
 .heading {
   text-align: center;
   font-family: SubHead;
+  font-size: 28px
 }
 
 .paragraph {
-  line-height: 18px;
+  line-height: 22px;
   text-align: center;
-  font-size: 22px;
-  font-size: 50%;
+  font-size: 16px;
+  width: auto;
   padding-bottom: 40px;
   font-family: SourceSansPro-Regular;
   color: #88939E;

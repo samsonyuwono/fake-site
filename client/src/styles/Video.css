@@ -53,6 +53,7 @@
   padding-left: 10%;
   font-family: ParagraphFont;
 }
+/* <VideoList videos={this.state.videos}/> */
 
 @font-face {
   font-family: HeaderFont;

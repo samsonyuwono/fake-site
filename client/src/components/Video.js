@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import stockimage from '../assets/stockimage.png';
-import playButton from '../assets/playbtn.png';
 import styles from '../styles/Video.css';
 import VideoList from './VideoList';
 
@@ -11,18 +10,14 @@ class Video extends Component {
     this.state = {
       videos: [],
     }
-    this.fetchVimeo()
+    this.fetchVimeo();
   }
-
  fetchVimeo() {
     fetch('https://vimeo.com/api/v2/channel/staffpicks/videos.json')
       .then(res => res.json())
       .then(json=> this.setState({videos: json}));
   }
 
-  handleOnClick() {
-    console.log("clicked!")
-  }
   render(){
     return(
     <div className={styles.videoContainer}>
@@ -32,18 +27,17 @@ class Video extends Component {
     </div>
 
     <div className={styles.videoWrapper}>
-      <a href="/test">
-        <div className={styles.videoOverlay}>
+      <a href="/videos">
+        <div onClick={this.handleOnClick} className={styles.videoOverlay}>
         </div>
         <img className ={styles.videoImage} src={stockimage} alt="video" />
       </a>
     </div>
-
-
-    </div>
+  </div>
 
     )
   }
 }
+
 
 export default Video;

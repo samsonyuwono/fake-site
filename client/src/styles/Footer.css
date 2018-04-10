@@ -10,11 +10,11 @@
 .link {
   display: 'block';
   font-size: 75%;
+  padding-top: 5%;
   padding-left: 30px;
   height: '60px';
   width: '100%';
   float: right;
-  padding-top: 5%;
   font-family: FooterFont;
   size: 1px;
   text-decoration: none;
